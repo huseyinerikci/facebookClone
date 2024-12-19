@@ -1,71 +1,26 @@
-# Getting Started with Create React App
+# Facebook Clone Project
+This project is a Facebook clone application created using React.js, HTML, CSS and Bootstrap. The application consists of pages where users can log in, create accounts and simulate various social media features. The project is enriched with component structure, page transitions and data processing features with React Router.
+## Preview
+A preview of my Facebook Clone project is in the gif below.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![facebookClone](https://github.com/user-attachments/assets/2c0250c3-bbde-489d-ab9b-7756ba59af13)
 
-## Available Scripts
+## Features
+* Login and Register Pages: Consists of pages that are not dynamic but can be transitioned to log in or create a new account.
+* Page Transition: Transition between pages is done with the React Router library.
+* Home Page:
+  
+    -Online friends list is displayed.
 
-In the project directory, you can run:
+    -Posts are taken from a file and rendered on the screen.
 
-### `npm start`
+    -Shares are supported with the like feature. Like icons are added from the React Icons library.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# facebookClone
+* Profile Page: The user's profile information, photos and other information are displayed on the profile page.
+* Responsive Design: A modern and responsive design has been made using Bootstrap.
+## Technologies
+* React.js: The main framework of the application.
+* React Router: For routing and transitions between pages.
+* React Icons: For icons.
+* Bootstrap: For page layout and style.
+* CSS: Page customizations and style.
